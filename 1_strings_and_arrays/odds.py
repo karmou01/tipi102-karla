@@ -1,4 +1,5 @@
 # Problem: Odds
+
 # Write a function get_odds() that takes in a list of integers nums and returns 
 # a new list containing all the odd numbers in nums.
 
@@ -8,6 +9,8 @@ def get_odds(nums):
         if num % 2 == 1:
             odds.append(num)
     return odds
+
+# Tests
 
 test = [1, 2, 3, 4]
 result = get_odds(test)
