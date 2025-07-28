@@ -18,7 +18,7 @@ def find_balanced_subsequence(art_pieces):
 
     result = 0
     for key in d:
-        if key+1 in d:
+        if key + 1 in d:
             result = max(result, d[key] + d[key+1])
     
     return result
